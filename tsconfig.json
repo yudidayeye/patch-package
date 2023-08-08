@@ -8,10 +8,16 @@
     "outDir": "dist",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    // 内联sourcemap
     "inlineSourceMap": true,
     "noEmitOnError": false,
     "inlineSources": true
   },
-  "include": ["typings/**/*.d.ts", "src/**/*.ts", "property-based-tests/**/*", "integration-tests/**/*"],
+  "include": [
+    "typings/**/*.d.ts",
+    "src/**/*.ts",
+    "property-based-tests/**/*",
+    "integration-tests/**/*"
+  ],
   "compileOnSave": true
 }

@@ -2,6 +2,29 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "调试 patch-package apply",
+      "program": "${workspaceFolder}/dist/index.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal",
+      "type": "node"
+    },
+    {
+      "name": "调试 patch-package",
+      "request": "launch",
+      "program": "${workspaceFolder}/dist/index.js",
+      // "runtimeArgs": [
+      //   "run-script",
+      //   "debug"
+      // ],
+      "console": "integratedTerminal",
+      // 修改的包名
+      "args": ["acorn"],
+      // "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
       "name": "Debug Jest Tests",
       "type": "node",
       "request": "launch",
