@@ -1,0 +1,8 @@
+diff --git a/node_modules/acorn/b.js b/node_modules/acorn/b.js
+new file mode 100644
+index 0000000..8b10f1c
+--- /dev/null
++++ b/node_modules/acorn/b.js
+@@ -0,0 +1 @@
++let b = 'b'
+\ No newline at end of file
